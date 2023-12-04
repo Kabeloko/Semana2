@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+  <html lang="pt-br">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 1. Título da página -->
+    <title>Meu Portifólio :: Contato</title>
+  </head>
+
+  <body>
+    <svg xmlns="http://www.w3.org/2000/svg" width="960" height="120">
+    <defs>
+        <linearGradient id="degrade" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="black" stop-opacity=".5" />
+            <stop offset="100%" stop-color="black" stop-opacity="1" />
+        </linearGradient>
+    </defs>
+    <rect width="100%" height="120" fill="url(#degrade)" />
+    <g dominant-baseline="middle" text-anchor="start">
+        <text x="20" y="45%" fill="white" font-size="56" font-family="sans-serif">
+            Thiago de Souza
+        </text>
+        <text x="20" y="75%" fill="white" font-size="16" font-family="sans-serif">
+            &lt;Designer e Desenvolvedor Web&gt;
+        </text>
+    </g>
+</svg>
+    <hr>
+    <h3>
+      <i><a href="index.html">Principal</a></i> ::
+      <!-- 2. Link para a página Quem Sou -->
+      <i><a href="quemsou.html">Quem Sou</a></i> ::
+      <!-- 3. Link para a página Projetos -->
+      <i><a href="projetos.html">Projetos</a></i> ::
+      <!-- 4. Link para a página Contato -->
+      <i><a href="contato.html">Contato</a></i>
+    </h3>
+    <hr>
+    <h2>Contato</h2>
+    <ul>
+      <li>Residente em Macaé/RJ</li>
+      <!-- 6. Item de lista contendo link para "contato.html" -->
+      <li><a href="mailto:thiagofemass@gmail.com">thiagofemass@gmail.com</a></li>
+      <!-- 7. Item de lista contendo telefone (27) 99999-9999 -->
+      <li>(22) 99271-2871</li>
+      <li><a href="https://www.linkedin/in/fulano">LinkedIn</a></li>
+
+      <!-- 8. Fechamento de elemento contêiner de lista não-ordenada -->
+    </ul>
+    <!-- 9. Parágrafo com informações de copyright com linha superior -->
+    <hr>
+    <h2>Formulário de contato</h2>
+    <form>
+      <p>
+        <label for="txtnomeCompleto">Nome</label><br>
+        <input type="text" name="nomeCompleto" id="txtnomeCompleto" placeholder="Fulano de Tal">
+      </p>
+      <p>
+        <br><label for="slctAssunto">Assunto</label><br>
+        <select name="Assunto" id="slctAssunto" required="required"><br>
+      </p>
+      <br>
+      <p>
+        <br>
+          <option value="">Selecione o assunto</option>
+          <option value="sug">Sugestão</option>
+          <option value="recl">Reclamação</option>
+          <option value="orc">Orçamento</option>
+          <option value="out">Outros</option>
+     <br>
+      </p>
+      <br>
+      <!--Nem por reza braba consegui fazer com que ficasse um de baixo do outro-->
+      <p>
+        <br><label for="txtMensag">Mensagem</label><br>
+        <textarea name="Mensagem" id="txtMensag" cols="30" rows="10"></textarea> <br> 
+      </p>
+      <p>
+        <input type="checkbox" name="flag" id="cx">
+        <label for="cx">Desejar receber minha newsletter</label>
+      </p>
+      <p>
+        Onde me encontrou?<br>
+        <input type="radio" name="achou" id="op" value="y">
+        <label for="op">Youtube</label><br>
+        <input type="radio" name="achou" id="op" value="g">
+        <label for="op">Google</label><br>
+        <input type="radio" name="achou" id="op" value="b">
+        <label for="op">Bing</label><br>
+        <input type="radio" name="achou" id="op" value="o">
+        <label for="op">Outros</label><br>
+      </p>
+      <p>
+        <input type="submit" value="Enviar"
+      </p>
+    </form>
+    <hr>
+    <p>
+      Copyright &copy; 2023
+    </p>
+    <p>
+      <!-- 17. Imagem "ifes.png" que está na pasta img, com 96 de altura -->
+      <img src="img/ifes.png" height="96px" alt="logomarca">
+    </p>
+  </body>
+
+  </html>
